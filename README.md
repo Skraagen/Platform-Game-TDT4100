@@ -1,2 +1,2 @@
-# Platform-Game-TDT4100
-A game project made for with theory from TDT4100 - Object Oriented Programming 
+# Java Platform Game
+A game project made in java using object oriented programming principles
