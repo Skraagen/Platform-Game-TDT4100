@@ -1,0 +1,49 @@
+.master-pane {
+    -fx-background-color: rgb(39, 32, 52);
+}
+
+* {
+    -fx-font-family: "Times New Roman";
+}
+
+.button {
+	-fx-border-radius: 0;
+	-fx-padding: 10 20;
+	-fx-background-color: rgb(120, 164, 151);
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+.button:hover {
+	-fx-background-color: rgb(130, 174, 161);
+	-fx-cursor: hand;
+}
+
+.text-area {
+    -fx-text-fill: #B4C4D0;
+    -fx-font-size: 14;
+    -fx-line-spacing: 1;
+    -fx-font-family: "Consolas";
+    -fx-focus-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: #393939
+
+}
+
+.paragraph {
+	-fx-font-size: 18
+}
+
+.editor-description {
+	-fx-font-size: 18;
+	-fx-text-fill: #ffffff7f;
+}
+
+.title-text {
+	-fx-font-size: 36;
+	-fx-font-weight: bold;
+	-fx-text-fill: WHITE;
+}
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane styleClass="master-pane" stylesheets="@/styles/Stylesheet.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <VBox fx:id="container" alignment="CENTER">
+      <children>
+         <Label styleClass="title-text" text="Platform Game">
+            <VBox.margin>
+               <Insets bottom="40.0" />
+            </VBox.margin>
+         </Label>
+         <Label styleClass="paragraph" text="Collect all the coins to win!" textFill="#dec30b">
+            <VBox.margin>
+               <Insets bottom="10.0" />
+            </VBox.margin>
+         </Label>
+         <Label styleClass="paragraph" text="SPACE: Jump - A: Left - D: Right - Q: Quit - M: Menu" textFill="#ffffff7f">
+            <VBox.margin>
+               <Insets bottom="30.0" />
+            </VBox.margin>
+         </Label>
+         <Button fx:id="game" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#game" styleClass="button" text="Play" VBox.vgrow="ALWAYS">
+            <VBox.margin>
+               <Insets bottom="30.0" />
+            </VBox.margin>
+         </Button>
+         <Button fx:id="options" mnemonicParsing="false" onAction="#options" styleClass="button" text="Map Editor">
+            <VBox.margin>
+               <Insets bottom="30.0" />
+            </VBox.margin>
+         </Button>
+         <Button fx:id="quit" mnemonicParsing="false" onAction="#quit" styleClass="button" text="Quit">
+            <VBox.margin>
+               <Insets bottom="30.0" />
+            </VBox.margin>
+         </Button>
+      </children>
+   </VBox>
+</AnchorPane>
