@@ -1,6 +1,8 @@
 # Java Platform Game
 A game project made in java using object oriented programming principles
 
+![thumbnail](https://raw.githubusercontent.com/Skraagen/TDT4100-Project-2021/main/thumbnail.PNG)
+
 Resourcefiles retrieved from:
 
 Characters and tilesheet: https://opengameart.org/comment/69962
